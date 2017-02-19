@@ -91,7 +91,7 @@ namespace Singular
                 }
             }
             Console.WriteLine("DictionaryCopy1 - Values are as expected");
-            Console.WriteLine("DictionaryCopy1 - Check passed count original: {0} count updated: {1}", DictionaryCopy1.Count, Dictionary.Count);
+            Console.WriteLine("DictionaryCopy1 - Check passed count original: {0} count updated: {1}", Dictionary.Count, DictionaryCopy1.Count);
 
             foreach (KeyValuePair<int, int> itemOriginal in Dictionary)
             {
@@ -102,7 +102,7 @@ namespace Singular
                 }
             }
             Console.WriteLine("DictionaryCopy2 - Values are as expected");
-            Console.WriteLine("DictionaryCopy2 - Check passed count original: {0} count updated: {1}", DictionaryCopy2.Count, Dictionary.Count);
+            Console.WriteLine("DictionaryCopy2 - Check passed count original: {0} count updated: {1}", Dictionary.Count, DictionaryCopy2.Count);
 
         }
 
