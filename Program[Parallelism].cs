@@ -127,7 +127,7 @@ namespace Parallelism
                 }
             }
             Console.WriteLine("DictConcurrentCopy1 - Values are as expected");
-            Console.WriteLine("DictConcurrentCopy1 - Check passed count original: {0} count updated: {1}", DictConcurrentCopy1.Count, DictConcurrent.Count);
+            Console.WriteLine("DictConcurrentCopy1 - Check passed count original: {0} count updated: {1}", DictConcurrent.Count, DictConcurrentCopy1.Count, );
 
             foreach (KeyValuePair<int, int> itemOriginal in DictConcurrent)
             {
@@ -138,7 +138,7 @@ namespace Parallelism
                 }
             }
             Console.WriteLine("DictConcurrentCopy2 - Values are as expected");
-            Console.WriteLine("DictConcurrentCopy2 - Check passed count original: {0} count updated: {1}", DictConcurrentCopy2.Count, DictConcurrent.Count);
+            Console.WriteLine("DictConcurrentCopy2 - Check passed count original: {0} count updated: {1}", DictConcurrent.Count, DictConcurrentCopy2.Count);
         }
     }
 }
